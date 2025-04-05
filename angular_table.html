@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<script src= "angular.js"></script>
+<body>
+
+
+<div ng-app="myApp" ng-controller="customersCtrl"> 
+
+<table border=1px>
+  <tr ng-repeat="x in names">
+  gdfgdf
+    <td>Items: <a href="{{ x.table_number }}.html">{{ x.items }} </a></td>
+    <td>Table Number: {{ x.table_number }}</td>
+  </tr>
+</table>
+
+</div>
+
+<script>
+//var app = angular.module('myApp', []);
+//app.controller('customersCtrl', function($scope, $http) {
+ //   $http.get("http://localhost/angular/fetch.php")
+  //  .success(function (response) {$scope.names = response.records;});
+//});
+//alert("hjhj");
+var app = angular.module('myApp', []);
+app.controller('customersCtrl',function($scope,$http,$interval){
+load_pictures();
+$interval(function(){
+load_pictures();
+},1000);
+function load_pictures(){
+$http.get("http://localhost/angular/fetch.php")
+   .success(function (response) {$scope.names = response.records;
+});
+};
+});
+</script>
+
+</body>
+</html>

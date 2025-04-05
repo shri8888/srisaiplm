@@ -1,0 +1,632 @@
+/*====================================== reset.css is here ========================================*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: bold;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+.clear {
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+	display: block;
+}
+.last {
+	margin: 0 !important;
+}
+.pad_last {
+	padding: 0 !important;
+}
+.no_bg {
+	background: none !important;
+}
+/**************************************************************************************/
+a {
+	color: #000;
+	text-decoration: none;
+	outline: 0 none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+/*----------------------------------------------------------------------------------*/
+html {
+}
+body {
+	color: #b1b1b1;
+	font-family: "Arial", Verdana, Tahoma;
+	font-size: 12px;
+}
+.flt_Lt {
+	float: left;
+	display: inline;
+}
+.flt_Rt {
+	float: right;
+	display: inline;
+}
+/* ---------------------------------------------------------------------------------*/
+
+
+/* ----------------------- layout ----------*/
+.wrapper {
+	margin: 0 auto;
+	background: #efefef;
+	width: 100%;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 0 0 10px;
+}
+.main_content {
+	width: 940px;
+	margin: 0 auto;
+}
+#header {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+}
+#header-txt {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 0 0px;
+}
+#header-Motivation-txt {
+	width: 920px;
+	margin: 0 auto;
+}
+#header-Motivation-txt a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: #333333;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-left: 0px;
+	padding-bottom: 0;
+	float: left;
+	font-weight: normal;
+}
+#header-Motivation-txt p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #737373;
+	float: right;
+	padding-top: 52px;
+	padding-right: 25px;
+	padding-left: 0px;
+	padding-bottom: 0;
+}
+/*-------------------------------------------*/
+
+/* ------------------ HEADER HERE -------------------*/
+#logo {
+}
+/* ---------------------------------------------------------*/
+
+
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+#nav {
+	width: 956px;
+	margin: 0 auto;
+}
+#nav ul {
+	display: inline-block;
+	width: 980px;
+}
+#nav ul li {
+	display: inline-block;
+	float: left;
+	margin-top: 0;
+	margin-right: 2px;
+	margin-bottom: 0;
+}
+#nav ul li a {
+	display: inline-block;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #fa6b66;
+	padding-top: 25px;
+	padding-right: 52px;
+	padding-left: 52px;
+	padding-bottom: 17px;
+	border-bottom: solid 3px #b7d0da;
+}
+#nav ul li a span {
+}
+#nav ul li a:hover {
+	background: #b7d0da;
+}
+
+#nav ul li.active a {
+	background: #b7d0da;
+}
+
+#nav ul li.last_item {
+	margin-right: 0px;
+	
+	
+}
+#nav ul li.last_item a {
+	padding-right: 30px;
+	padding-left:35px;
+	
+	
+}
+/* ---------------------------------------------------------*/
+
+/* ------------------------ MIAN CONTENT HERE --------------*/
+.banner-box {
+	width: 940px;
+	margin: 0 auto;
+	background: url(../../../templates/preview/css065/images/banner-border.png) no-repeat center bottom;
+}
+.banner-img {
+	float: left;
+}
+.banner-img img {
+}
+.banner-txt {
+	width: 380px;
+	float: right;
+	background: #333333;
+	min-height: 329px;
+}
+.banner-txt h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #ffffff;
+	width: 260px;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+.banner-txt p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #cccccc;
+	width: 295px;
+	padding: 0 0 25px 35px;
+	line-height: 20px;
+}
+.readmore-btn {
+	margin: 0 0 28px 35px;
+}
+.readmore-btn a {
+	background: url(../images/readmore-btn1.png) no-repeat;
+	width: 87px;
+	height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 17px 8px 12px;
+}
+.readmore-btn a:hover {
+	background: url(../images/readmore-btn2.png) no-repeat;
+}
+.numbers-box {
+	width: 940px;
+	margin: 0 auto;
+	padding: 1px 0 0;
+}
+.Lorem-box {
+	width: 313px;
+	float: left;
+	border-top: 10px solid #669cb1;
+}
+.Lorem-txt {
+	width: 300px;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.Lorem-txt span {
+	background: url(../images/numbers-img2.png) no-repeat;
+	background-size: contain;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-top: 4px;
+	padding-right: 19px;
+	padding-left: 14px;
+	padding-bottom: 8px;
+	float: left;
+}
+.Lorem-txt h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #A4A4A4;
+	float: left;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 0;
+	padding-bottom: 0;
+	font-weight: normal;
+}
+.Lorem-box p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	width: 277px;
+	line-height: 20px;
+	padding: 20px 0 30px 0;
+}
+.readmore-btn-ash {
+}
+.readmore-btn-ash a {
+	background: url(../images/readmore-btn-ash.png) no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 17px 8px 12px;
+	display: inline-block;
+}
+.Egestas-box {
+	width: 314px;
+	float: left;
+	border-top: 10px solid #f49900;
+}
+.Egestas-txt {
+	width: 320px;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.Egestas-txt span {
+	background: url(../images/numbers-img.png) no-repeat;
+	background-size: contain;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-top: 4px;
+	padding-right: 19px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	float: left;
+}
+.Egestas-txt h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #A4A4A4;
+	float: left;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 0;
+	padding-bottom: 0;
+	font-weight: normal;
+}
+.Egestas-box p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	width: 277px;
+	line-height: 20px;
+	padding: 20px 0 30px 0;
+}
+.readmore-btn-ash2 {
+}
+.readmore-btn-ash2 a {
+	background: url(../images/readmore-btn-ash.png) no-repeat;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 17px 8px 12px;
+}
+.Vivamus-box {
+	width: 313px;
+	float: right;
+	border-top: 10px solid #7caf55;
+}
+.Vivamus-txt {
+	width: 312px;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.Vivamus-txt span {
+	background: url(../images/numbers-img3.png) no-repeat;
+	background-size: contain;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-top: 4px;
+	padding-right: 19px;
+	padding-left: 14px;
+	padding-bottom: 8px;
+	float: left;
+}
+.Vivamus-txt h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #A4A4A4;
+	float: ;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 0;
+	padding-bottom: 0;
+	font-weight: normal;
+}
+.Vivamus-box p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	width: 277px;
+	line-height: 20px;
+	padding: 20px 0 30px 0;
+}
+.readmore-btn-ash3 {
+}
+.readmore-btn-ash3 a {
+	background: url(../images/readmore-btn-ash.png) no-repeat;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 17px 8px 12px;
+}
+.bottom-cont {
+	width: 940px;
+	margin: 35px auto;
+}
+.about-box {
+	width: 460px;
+	float: left;
+	background: #f3f3f3;
+	border-top: solid 2px #b7d0da;
+	padding: 0 0 20px;
+}
+.about-box h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	font-weight: normal;
+	padding: 25px 0 25px 25px;
+}
+.about-img-txt {
+	width: 410px;
+	margin: 0 auto;
+}
+.about-img-txt img {
+	float: left;
+	margin: 0 15px 0 0;
+}
+.about-img-txt p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+	text-align: justify;
+}
+.about-img-txt p a {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+	padding: 13px 0 0;
+}
+
+
+.content-box {
+	width: 100%;
+	float: left;
+	background: #f3f3f3;
+	border-top: solid 2px #b7d0da;
+	padding: 0 0 20px;
+}
+.content-box h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	font-weight: normal;
+	padding: 25px 0 25px 25px;
+}
+.content-img-txt {
+	width: 100%;
+	
+	padding-left:15px;
+	margin: 0 auto;
+}
+.content-img-txt img {
+	float: left;
+	margin: 0 15px 0 0;
+}
+.content-img-txt p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+	padding-right:20px;
+	text-align: justify;
+}
+.content-img-txt p a {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+	padding: 13px 0 0;
+}
+
+.service-box {
+	width: 460px;
+	height: 395px;
+	float: right;
+	background: #f3f3f3;
+	border-top: solid 2px #b7d0da;
+	min-height: 308px;
+}
+.service-box h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	font-weight: normal;
+	padding: 25px 0 25px 25px;
+}
+.service-box p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	line-height: 18px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 25px;
+	padding-bottom: 15px;
+	width: 404px;
+}
+.txt-nav {
+	width: 270px;
+	height: 395px;
+	padding: 0 0 0 25px;
+}
+.txt-nav ul {
+	display: block;
+	float: left;
+}
+.txt-nav ul li {
+	display: inline-block;
+	background: url(../images/icon-arrow-txt.png) no-repeat left center;
+	padding-right: 0;
+	padding-left: 12px;
+	padding-bottom: 0;
+	padding-top: 0px;
+	margin-top: 7px;
+}
+.txt-nav ul li a {
+	display: inline-block;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	float: left;
+}
+.txt-nav ul li a span {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+}
+.txt-nav ul li a:hover span {
+	text-decoration: underline;
+}
+/* ---------------------------------------------------------*/
+
+
+/* ------------------ FOOTER HERE --------------------------*/
+#footer {
+	width: 940px;
+	margin-top: 17px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	background: #f3f3f3;
+	border-top: solid 2px #e9e9e9;
+}
+.footer-in {
+	width: 888px;
+	margin: 0 auto;
+	padding: 0px 0 0px 0;
+}
+.copy {
+	float: left;
+	display: inline-block;
+	padding: 45px 0 45px 0;
+}
+.copy p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #666666;
+	display: inline-block;
+}
+.copy a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #666666;
+	display: inline-block;
+	text-decoration: underline;
+}
+.social-icons {
+	float: right;
+	padding: 45px 0 45px 28px;
+	display: inline-block;
+}
+.social-icons ul {
+	float: right;
+	display: inline-block;
+}
+.social-icons ul li {
+	float: right;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.social-icons ul li a {
+	display: block;
+}
+
+/* ---------------------------------------------------------*/
